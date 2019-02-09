@@ -34,7 +34,7 @@ body {
     position: relative;
 }
 
-/***************************** Typography ******************************/
+/*  Type */
 
 h1, 
 h2 {
@@ -186,8 +186,8 @@ footer {
     text-align: center;
     color: #eee;
     padding-bottom: 5px;
-    margin-top: -55px;
-   height: 55px;;
+    margin-top: 80px;
+   
 }
 
 footer p {
