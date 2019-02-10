@@ -1,40 +1,14 @@
-/*----------
-#4aaaa5
-#777
-#fff
-#ccc
-#666
-#ddd
------------*/
-.cf:before,
-.cf:after {
-    content: " "; 
-    display: table; 
-}
-
-.cf:after {
-    clear: both;
-}
-
-html {
-    height: 100%;
-    box-sizing: border-box;
-}
+/***************************** Body Styles ******************************/
 
 body {
-    /* width: 960px; */
-    margin: 0 auto;
-    line-height: 1.6rem;
     color: #8A888A;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("../images/what-the-hex.png");
     background-color: #ebebeb;
     background-repeat: repeat;
-    min-height: 100%;
-    position: relative;
 }
 
-/*  Type */
+/***************************** Typography ******************************/
 
 h1, 
 h2 {
@@ -54,54 +28,25 @@ header {
     margin-bottom: 40px;
 }
 
-.header {
-    width: 960px;
-    margin: auto;
-}
-
 .logo {
     background-color: #4aaaa5;
-    color: #fff;
-    padding: 5px 30px;
-    float: left;
+    color: #fff; 
+    padding: 10px 30px;
+    margin: -13px;
 } 
 
-.logo a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul {
-   float: right;
-   margin-top: 22px;
-}
-
-nav ul li {
-    display: inline;
-    padding: 0 15px;
+.nav-link {
     border-right: 1px solid #eee;
+    padding: 0 15px;
 }
 
-nav ul li:last-child {
+.nav-link:last-child {
     border: none;
-}
-
-nav a {
-    text-decoration: none;
-    color: #8A888A;
-}
-
-nav a:hover {
-    color: #666;
-    transition-property: color;
-    transition-delay: .2s;
 }
 
 section {
     background-color: #fff;
-    padding: 25px;
-    width: 960px;
-    margin: auto; 
+    /* padding: 25px; */
 }
 
 .main h2 {
@@ -111,24 +56,23 @@ section {
     
 }
 
-/***************************** About ******************************/
-
-.about-img {
-    float: left;
-    padding: 8px 30px 15px 0;
-    width: 295px;
-}
-
 /***************************** Portfolio ******************************/
 
 .project {
-    width: 250px; 
-    height: 200px;
     position: relative;
     text-align: center;
     color: #fff;
-    float: left;
-    margin: 10px 30px 30px 0;
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.project-title {
+    background-color: #4aaaa5; 
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    padding: 10px 0;
 }
 
 .project:hover {
@@ -143,53 +87,14 @@ section {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.project-title {
-    background-color: #4aaaa5; 
-    position: absolute;
-    bottom: 5px;
-    width: 100%;
-    /* padding: 10px; */
-    padding: 10px 0;
-}
-
-/***************************** Contact ******************************/
-
-input {
-    display: block;
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #eee;
-    margin-bottom: 10px;
-}
-
-.text-area {
-    height: 150px;
-}
-
-.btn {
-    border: none;
-    background-color: #4aaaa5;
-    color: #fff;
-    padding: 8px 22px;
-
-}
-
 /***************************** Footer ******************************/
 
 footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
     background-color: #666;
     border-top: 8px solid #4aaaa5;
-    text-align: center;
-    color: #eee;
-    padding-bottom: 5px;
-    margin-top: 80px;
-   
+    color: #eee;   
 }
 
 footer p {
-    margin: 30px 0 0; 
+    margin: 30px 0 5px; 
 }

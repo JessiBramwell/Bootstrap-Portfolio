@@ -15,22 +15,24 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- <link rel="stylesheet" href="assets/css/style.css" type="text/css"> -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-light sm-light">
             <div class="container">
-                <h1><a class="navbar-brand logo" href="#">Jessica Bramwell</a></h1>
+                <a class="navbar-brand " href="index.html">
+                    <h1 class="logo">Jessica Bramwell</h1>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="index.html"">About</a>
-                            <a class="
+                        <a class="nav-link" href="index.html">About</a>
+                        <a class="
                             nav-link active" href="portfolio.html">Portfolio</a>
                         <a class="nav-link" href="contact.html">Contact</a>
                     </div>
@@ -39,39 +41,42 @@
         </nav>
     </header>
 
-    <section class="container">
-        <h2>Portfolio</h2>
-        <div class="row">
-            <div class="col-sm-4 project">
-                <img src="https://placehold.it/250x200" alt="example">
-                <h3 class="project-title">one</h3>
+    <div class="container">
+        <section class="main portfolio p-4">
+            <h2>Portfolio</h2>
+            <div class="projects pt-4 d-flex justify-content-between flex-wrap">
+                <div class="project">
+                    <img src="https://placehold.it/300x250" alt="example">
+                    <h3 class="project-title">one</h3>
+                </div>
+                <div class="project">
+                    <img src="https://placehold.it/300x250" alt="example">
+                    <h3 class="project-title">two</h3>
+                </div>
+                <div class="project">
+                    <img src="https://placehold.it/300x250" alt="example">
+                    <h3 class="project-title">three</h3>
+                </div>
+                <!-- </div>
+            <div class="pt-3 d-flex justify-content-around flex-wrap"> -->
+                <div class="project">
+                    <img src="https://placehold.it/300x250" alt="example">
+                    <h3 class="project-title">four</h3>
+                </div>
+                <div class="project">
+                    <img src="https://placehold.it/300x250" alt="example">
+                    <h3 class="project-title">five</h3>
+                </div>
+                <div class="project">
+                    <img src="https://placehold.it/300x250" alt="example">
+                    <h3 class="project-title">six</h3>
+                </div>
             </div>
-            <div class="col-sm-4 project">
-                <img src="https://placehold.it/250x200" alt="example">
-                <h3 class="project-title">two</h3>
-            </div>
-            <div class="col-sm-4 project">
-                <img src="https://placehold.it/250x200" alt="example">
-                <h3 class="project-title">three</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 project">
-                <img src="https://placehold.it/250x200" alt="example">
-                <h3 class="project-title">four</h3>
-            </div>
-            <div class="col-sm-4 project">
-                <img src="https://placehold.it/250x200" alt="example">
-                <h3 class="project-title">five</h3>
-            </div>
-            <div class="col-sm-4 project">
-                <img src="https://placehold.it/250x200" alt="example">
-                <h3 class="project-title">six</h3>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
-    <footer class="fixed-bottom">
+
+    <footer class="fixed-bottom text-center">
         <p><small>Copyright &copy;</small></p>
     </footer>
 
