@@ -14,6 +14,7 @@ h1,
 h2 {
    font-family: 'Georgia', Times, Times New Roman, serif;
    font-weight: 600;
+   font-size: 1.5em;
 }
 
 h2 {
@@ -47,14 +48,12 @@ header {
 
 section {
     background-color: #fff;
-    /* padding: 25px; */
 }
 
 .main h2 {
     border-bottom: 2px solid #ddd;
     padding-bottom: 20px;
     margin-top: 0;
-    font-weight: 
 }
 
 /***************************** Portfolio ******************************/
@@ -63,17 +62,16 @@ section {
     position: relative;
     text-align: center;
     color: #fff;
-    max-width: 300px;
-    width: 100%;
     margin-bottom: 3rem;
+    min-width: 30%;
 }
 
 .project-title {
     background-color: #4aaaa5; 
     position: absolute;
     bottom: 5px;
-    width: 100%;
     padding: 10px 0;
+    width: 100%;
 }
 
 .project:hover {
