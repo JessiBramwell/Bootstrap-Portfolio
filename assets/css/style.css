@@ -100,10 +100,19 @@ footer p {
 
 /***************************** Media-Query ******************************/
 
-@media only screen and (max-width: 450px) {
-  .logo {
-    font-size: 6vw;
-    padding: 2vh;
-    margin-left: -16px;
-  }
+@media only screen and (max-width: 576px) {
+    header {
+        width: 100%;
+        background-color: #4aaaa5;
+    }
+
+    .logo {
+        font-size: 6vw;
+        padding: 2vh;
+        margin-left: -16px;
+    }
+
+    .navbar-toggler {
+        background-color: #eee;
+    }
 }
